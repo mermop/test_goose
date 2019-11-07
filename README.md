@@ -1,8 +1,6 @@
 # Test Goose
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rspec/honk`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This is a gem that honks when an RSpec spec fails.
 
 ## Installation
 
@@ -22,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Add `test_goose` to your Gemfile.
+2. Run `rspec --format TestGoose`.
+3. The goose will honk when a spec fails.
 
 ## Development
 
@@ -32,8 +32,12 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rspec-honk.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mermop/rspec-honk.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## Disclaimer
+
+Please note that using this is a bad idea on several levels.
