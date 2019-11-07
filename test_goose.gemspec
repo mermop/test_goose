@@ -1,22 +1,22 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "rspec_honk/version"
+require "test_goose/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "rspec-honk"
-  spec.version       = RspecHonk::VERSION
+  spec.name          = "test_goose"
+  spec.version       = TestGooseGem::VERSION
   spec.authors       = ["Merrin"]
   spec.email         = ["merrin.macleod@gmail.com"]
 
   spec.summary       = %q{Honks when your RSpec tests fail.}
   spec.description   = %q{A RSpec plugin that honks when your RSpec tests fail.}
-  spec.homepage      = "https://github.com/mermop/rspec-honk"
+  spec.homepage      = "https://github.com/mermop/test_goose"
   spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/mermop/rspec-honk"
+  spec.metadata["source_code_uri"] = "https://github.com/mermop/test_goose"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
