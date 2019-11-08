@@ -40,4 +40,6 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Disclaimer
 
-Please note that using this is a bad idea on several levels.
+Please note that using this is a bad idea on several levels. 
+
+Thanks to Jon Rowe, maintainer of [honkhonk](https://github.com/jonrowe/honk) and some other gems. 
