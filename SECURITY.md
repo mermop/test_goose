@@ -1,1 +1,1 @@
-Please tweet security vulnerabilities with this app to me at @merxplat.
+Please tweet security vulnerabilities with this gem to me at @merxplat.
